@@ -24,7 +24,7 @@ Alternatively the sample applications can be build for a server that does provid
 
 ``mvn clean package -Pprovided``
 
-There are 4 CI targets provided to test Soteria against:
+There are 3 CI targets provided to test Soteria against:
 
 * payara
 * wildfly
