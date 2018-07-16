@@ -530,8 +530,8 @@
                                 <!--<tomee.serverXml>../common/src/main/resources/tomee_server.xml</tomee.serverXml>-->
                                 <tomee.conf>../common/src/main/resources/tomee</tomee.conf>
                                 <tomee.additionalLibs>
-                                    mvn:org.omnifaces:jacc-provider-tomee-bridge:0.2
-                                    mvn:org.omnifaces:jacc-provider:0.2
+                                    mvn:org.omnifaces:jacc-provider-tomee-bridge:0.3
+                                    mvn:org.omnifaces:jacc-provider:0.3
                                 </tomee.additionalLibs>
                                 <tomee.cleanOnStartUp>false</tomee.cleanOnStartUp>
                             </systemPropertyVariables>
@@ -585,7 +585,7 @@
                                         <artifactItem>
                                             <groupId>org.omnifaces</groupId>
                                             <artifactId>jacc-provider-liberty-bundle</artifactId>
-                                            <version>0.2</version>
+                                            <version>0.3</version>
                                             <type>jar</type>
                                             <overWrite>false</overWrite>
                                             <outputDirectory>${project.build.directory}/jacc-provider-liberty-bundle</outputDirectory>
